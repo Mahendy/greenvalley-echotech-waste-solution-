@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!----Our Home Page-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> GreenValley EcoTech Waste Solutions-Home</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+</head>
+<body style="background-color: rgba(255, 189, 127, 0.582);">
+    <header>
+        <img src="./Assets/website logo.png" width="400" height="300">
+        <nav class="nav-links">
+            <a href="index.html"> Home</a>
+            <a href="./pages/about.html">About Us</a>
+            <a href="./pages/service.html">Our Services</a>
+            <a href="./pages/contact.html">Contact Us</a>
+        </nav>
+                    <!--Add a hamburger navigation  for small devices-->
+                    <div class="hamburger">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+    </header>
+    <main>
+        <h1 style="text-align: center; color: black;"> WELCOME TO GREENVALLEY ECOTECH WASTE SOLUTIONS</h1>
+        <div class="responsive context">
+        <P style="font-size: larger;">
+        GreenValley EcoTech Waste Solutions was founded in 2018 in Greenvalley, Acornhoek South Africa, in response to the growing environmental  challanges caused by improper waste disposal.The company started as a small community project focused on recycliung and composting but has since grwn into a reputable invironmental solution provider. Over the years, Greenvalley EcoTech  Waste Solutions has partnered with municipalities, schools and local businesses to promote eco-friendly practices and provide innovative waste management services.</P>
+        </div>
+        <section>
+            <img src="./Assets/main.jfif" alt="main" width="400" height="300">
+        </section>
+        <section>
+            <video src="" width="400" height="300" controls></video>
+        </section>
+    </main>
+    <footer>
+        <p style="text-align: center;">&copy; 2025 GreenValley EcoTech Waste Solutions</p>
+        <div class="socials">
+            <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+        </div>
+    </footer>
+    <script>
+        const hamburger = document.querySelector('.hamburger');
+        const navLinks = document.querySelector('.nav-links');
+
+        hamburger.addEventListener('click', () => {
+        navLinks.classList.toggle('active');
+        hamburger.classList.toggle('active'); // animate hamburger
+        });
+    </script>
+</body>
+</html>
